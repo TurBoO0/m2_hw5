@@ -4,6 +4,5 @@ def get_matrix(n, m, value):
         matrix.append([])
         for a in range(m):
             matrix[i].append(value)
-    print(matrix)
     return matrix
 print(get_matrix(3, 6, 10))
